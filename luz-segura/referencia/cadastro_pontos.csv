@@ -1,0 +1,7 @@
+id_local,endereco,bairro,tipo_ponto
+P01,Rua das Acácias 120,Centro,ponto de ônibus
+P02,Praça do Relógio,Centro,praça
+P03,Av. Fictícia 800,Presidente Altino,ponto de ônibus
+P04,Rua do Lago 45,Presidente Altino,rua
+P05,Rua Verde 300,Jardim Piratininga,ponto de ônibus
+P06,Rua Nova 12,Jardim Piratininga,rua
