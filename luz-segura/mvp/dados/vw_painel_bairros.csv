@@ -1,4 +1,6 @@
 bairro,pontos,criticos,pct_criticos,lux_medio_bairro,lux_pior_ponto,chamados,resolvidos,maior_pendencia_dias
-Jardim Piratininga,2,1,50,6.3,0.48,1,0,11
-Centro,2,0,0,11,7.26,1,1,null
-Presidente Altino,2,1,50,1.6,0.96,2,1,6
+Mutinga,63,9,14,6.3,0.77,14,4,13
+Vila Campesina,56,7,13,8.3,0.77,11,5,12
+Centro,19,1,5,6.5,0.78,3,0,12
+Presidente Altino,24,1,4,8,0.77,4,1,12
+Cidade de Deus,44,1,2,7.7,0.77,7,2,11

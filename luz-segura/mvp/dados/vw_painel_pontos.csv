@@ -1,7 +1,21 @@
-bairro,endereco,tipo_ponto,lux_medio,relatos_escuro,relatos_total
-Jardim Piratininga,Rua Verde 300,ponto de ônibus,0.48,12,12
-Centro,Rua das Acácias 120,ponto de ônibus,14.75,0,16
-Jardim Piratininga,Rua Nova 12,rua,12.2,0,15
-Presidente Altino,Av. Fictícia 800,ponto de ônibus,0.96,15,15
-Centro,Praça do Relógio,praça,7.26,0,10
-Presidente Altino,Rua do Lago 45,rua,2.33,0,4
+id_local,nome,bairro,latitude,longitude,tipo_ponto,lux_medio,relatos_total,relatos_escuro,situacao,critico,chamado_status,dias_pendente
+OSM-n8089579224,"Avenida Gen. Mac Arthur, 1620",Vila Campesina,-23.553288,-46.755383,ponto de ônibus,0.77,0,0,Escuro,0,resolvido,null
+OSM-n10678644913,null,Cidade de Deus,-23.553794,-46.789002,ponto de ônibus,0.77,0,0,Escuro,0,sem chamado,null
+OSM-n3023473030,null,Presidente Altino,-23.527711,-46.762777,ponto de ônibus,0.77,1,1,Escuro,1,resolvido,null
+OSM-n8149400983,"Rua Agamenon Magalhães, 432",Mutinga,-23.512212,-46.758062,ponto de ônibus,0.77,0,0,Escuro,0,pendente,10
+OSM-n5216808982,"Rodovia Anhanguera, 820",Mutinga,-23.502444,-46.754641,ponto de ônibus,0.78,0,0,Escuro,0,sem chamado,null
+OSM-n8089568201,"Avenida Doutor Francisco De P. V. De Azevedo, 777",Vila Campesina,-23.54186,-46.759848,ponto de ônibus,0.78,1,1,Escuro,1,pendente,8
+OSM-n9181224732,null,Cidade de Deus,-23.552158,-46.776408,ponto de ônibus,0.78,0,0,Escuro,0,pendente,9
+OSM-n8149400751,"Rua Flor Da Cachoeira, 211",Mutinga,-23.502326,-46.761037,ponto de ônibus,0.78,1,0,Escuro,0,pendente,5
+OSM-n9181224742,null,Cidade de Deus,-23.558579,-46.781465,ponto de ônibus,0.78,0,0,Escuro,0,resolvido,null
+OSM-n9181224736,null,Cidade de Deus,-23.553645,-46.778048,ponto de ônibus,0.78,1,0,Escuro,0,pendente,3
+OSM-n12439711062,null,Mutinga,-23.501284,-46.765699,ponto de ônibus,0.78,2,2,Escuro,1,resolvido,null
+OSM-n8149400742,"Rua Capela De Santana, 196",Mutinga,-23.509316,-46.76034,ponto de ônibus,0.78,0,0,Escuro,0,pendente,7
+OSM-n8089579220,"Avenida Gen. Mac Arthur, 1400",Vila Campesina,-23.553786,-46.753593,ponto de ônibus,0.78,0,0,Escuro,0,pendente,4
+OSM-n10678385048,null,Centro,-23.537,-46.780232,ponto de ônibus,0.78,1,1,Escuro,1,pendente,3
+OSM-n8089580387,"Avenida Antônio de Souza Noschese, 915",Vila Campesina,-23.539359,-46.757783,ponto de ônibus,0.78,1,1,Escuro,1,resolvido,null
+OSM-n12857744689,null,Presidente Altino,-23.528072,-46.763022,ponto de ônibus,0.78,0,0,Escuro,0,pendente,12
+OSM-n12857792034,null,Presidente Altino,-23.529822,-46.762673,ponto de ônibus,0.79,0,0,Escuro,0,pendente,4
+OSM-n10678617998,null,Cidade de Deus,-23.554481,-46.78623,ponto de ônibus,0.79,0,0,Escuro,0,pendente,11
+OSM-n6204169087,null,Vila Campesina,-23.542025,-46.76601,ponto de ônibus,0.79,2,1,Escuro,1,pendente,12
+OSM-n13307478792,null,Mutinga,-23.506365,-46.788887,ponto de ônibus,0.79,1,1,Escuro,1,sem chamado,null

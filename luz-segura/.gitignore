@@ -4,3 +4,4 @@ chegada/
 __pycache__/
 *.pyc
 .venv/
+app_data/
