@@ -4,6 +4,27 @@ Global Solution | 4ESPY
 
 Pipeline de dados do **Luz Segura**, o componente **Dados** do MVP: coleta orquestrada no Airflow, ingestão incremental no Databricks (Bronze, Prata e Ouro), regras de qualidade, modelo dimensional e proteção de dados pessoais (LGPD).
 
+**Problema:**
+Ponto de ônibus escuro, rua com poste queimado, praça sem luz. Isso afeta a sensação de segurança, o
+risco de acidentes e a autonomia de idosos e pessoas com deficiência. A prefeitura só descobre o poste
+apagado quando alguém reclama, e a reclamação costuma ser mal localizada, duplicada ou nunca
+priorizada.
+
+**Pessoas Impactadas:**
+Quem depende de transporte público e anda a pé ao anoitecer ou de madrugada: trabalhadores de turno,
+estudantes de cursos noturnos e idosos. Sugestão: delimitar um território pequeno, como o entorno de
+uma estação e os pontos de ônibus de um bairro de Osasco.
+
+**Fluxo do produto**
+- O cidadão envia uma foto noturna de um ponto, com localização.
+- A visão computacional classifica a iluminação (adequada, fraca ou inexistente).
+- A automação valida o relato, remove duplicados da mesma região e cria um chamado priorizado.
+- O pipeline de dados cruza o chamado com pontos de ônibus próximos e clima e alimenta um painel.
+- A LLM responde dúvidas ("por que este ponto está em primeiro?") citando a fonte, e diz "não consta"
+quando não há base.
+- Um robô com sensor LDR mede a luminosidade real e confirma ou contesta o relato. Essa validação
+física é o diferencial.
+
 ## Integrantes
 - Fabrício Gutierrez Saavedra - RM97631
 - Márcio Gastaldi - RM98811
