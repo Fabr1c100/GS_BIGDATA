@@ -9,7 +9,6 @@ from geradores.simulacao import gerar_sensor, gerar_relatos, gerar_chamados
 
 CHEGADA = Path("/opt/airflow/chegada")
 
-
 def coletar_clima(ds, **_):
     r = requests.get("https://archive-api.open-meteo.com/v1/archive",
         params={"latitude": -23.53, "longitude": -46.79, "start_date": ds, "end_date": ds,
@@ -20,7 +19,6 @@ def coletar_clima(ds, **_):
     destino.parent.mkdir(parents=True, exist_ok=True)
     destino.write_text(r.text, encoding="utf-8")
 
-
 def conferir_chegada(ds, **_):
     esperados = [CHEGADA / "pontos" / f"pontos_osm_{ds}.csv",
                  CHEGADA / "clima" / f"clima_{ds}.json",
@@ -30,7 +28,6 @@ def conferir_chegada(ds, **_):
     faltando = [p.name for p in esperados if not p.exists()]
     if faltando:
         raise FileNotFoundError(f"Arquivos ausentes: {faltando}")
-
 
 with DAG(dag_id="luz_segura_coleta", schedule="@daily",
          start_date=pendulum.datetime(2026, 11, 3),
