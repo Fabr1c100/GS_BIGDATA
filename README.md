@@ -278,4 +278,4 @@ Link do MVP: [PREENCHER]
 
 ## Links
 
-- Vídeo do pitch: 
+- Vídeo do pitch: https://youtu.be/oAgjTRLe3cA
