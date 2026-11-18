@@ -17,8 +17,8 @@ Este repositório contém o componente de **Dados** do projeto: o pipeline que c
 - Fabrício Gutierrez Saavedra - RM97631
 - Márcio Gastaldi - RM98811
 - Arthur Bessa Pian - RM99215
-- Davi Desenzi - RM550849
-- João Victor - RM551410
+- Davi Almeida Desenzi - RM550849
+- João Victor Soares Rodrigues - RM551410
 
 ## Perguntas que o MVP responde
 
@@ -278,5 +278,4 @@ Link do MVP: [PREENCHER]
 
 ## Links
 
-- Repositório: [PREENCHER]
-- Vídeo do pitch: [PREENCHER]
+- Vídeo do pitch: 
